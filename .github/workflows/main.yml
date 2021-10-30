@@ -6,6 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
+    # 指定 是ubuntu 只是要指定运行环境是linux环境
     runs-on: ubuntu-latest
     steps:
 
